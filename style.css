@@ -1,34 +1,51 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;  
+}
+.nav{
+    margin-left: 850px;
+    margin-top: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(82, 173, 201);
+    padding: 25px;
+    font-size: 20px;
+}
+.nav a:hover{
+	font-weight: bold;
+    font-size: 25px;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.flex-container{
+    display: flex;
 }
 .half-width{
     width: 40%;
     margin: 5%;
 }
-.flex-container{
-    display: flex;
-}
 .half-width img{
     width: 75%;
-}
-.color-change{
-    color: rgb(82, 173, 201);
 }
 .half-width h1{
     font-size: 50px;
 }
-.contact-box{
-    width: 80%;
+.color-change{
+    color: rgb(82, 173, 201);
+}
+.container-box{
+    width:85%;
     margin:auto;
     font-size: 20px;
 }
-.contact-box h1{
-    color: rgb(75, 161, 182);
+.container-box h1{
     font-size: 45px;
 }
 .form-box{
-    width:45%;
+    width:40%;
     margin: auto;
 }
 form{
@@ -48,7 +65,7 @@ input[type=text],textarea{
     box-shadow: 2px 2px 3px rgb(56, 117, 136);
 }
 input[type=submit]{
-    background-image: linear-gradient(45deg, rgb(104, 193, 207), rgb(81, 143, 179));
+    background-image: linear-gradient(90deg, rgb(104, 193, 207), rgb(87, 120, 192));
     border-radius: 4px;
     padding: 15px 45px;
     font-size: 20px;
@@ -59,3 +76,48 @@ input[type=submit]{
 input[type=submit]:hover {
    font-size: 23px;
   }
+.project-box{
+    margin: 75px 0;;
+    display: flex;
+    justify-content: space-around;
+}
+.project{
+    width:480px;
+    margin-left:4%;
+    border-radius: 5px;
+    box-shadow: 0px 10px 4px gray;
+    transition: all .15s linear;
+}
+.project:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.project img{
+    width: 100%;
+    height: 220px;
+}
+.details{
+    padding:0px 30px;
+    text-align: justify;
+}
+.details h3{
+    color:rgb(82, 173, 201);
+}
+.details p{
+    font-size: 15px;
+}
+.button-link{
+    display: inline-block;
+    text-decoration: none;
+    padding:15px 45px;
+    background-color: rgb(82, 173, 201);
+    font-size: 25px;
+    color:white;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.button-link:hover{
+    background-color:  rgb(49, 76, 116);
+    color:azure;
+    font-size: 28px;
+}

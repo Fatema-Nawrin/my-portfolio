@@ -13,8 +13,49 @@ body{
     width: 75%;
 }
 .color-change{
-    color: rgb(96, 205, 238);
+    color: rgb(82, 173, 201);
 }
 .half-width h1{
     font-size: 50px;
 }
+.contact-box{
+    width: 80%;
+    margin:auto;
+    font-size: 20px;
+}
+.contact-box h1{
+    color: rgb(75, 161, 182);
+    font-size: 45px;
+}
+.form-box{
+    width:45%;
+    margin: auto;
+}
+form{
+    margin-top: 50px;
+}
+label{
+    font-size: 25px;
+    font-weight: 500;
+}
+input[type=text],textarea{
+    width:100%;
+    padding: 12px;
+    font-size: 15px;
+    margin:10px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(66, 133, 153);
+    box-shadow: 2px 2px 3px rgb(56, 117, 136);
+}
+input[type=submit]{
+    background-image: linear-gradient(45deg, rgb(104, 193, 207), rgb(81, 143, 179));
+    border-radius: 4px;
+    padding: 15px 45px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+   font-size: 23px;
+  }
